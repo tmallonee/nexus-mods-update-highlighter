@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Nexus Mods Last DL Highlighter
+// @name         Nexus Mods Update Highlighter
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Highlight the "Last DL" column if it's older than the "Updated" column on Nexus Mods page
