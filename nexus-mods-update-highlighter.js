@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  Highlight the "Last DL" column if it's older than the "Updated" column on Nexus Mods page
 // @author       pmcb
-// @match        https://www.nexusmods.com/starfield/users/myaccount?tab=download+history
+// @include      https://*.nexusmods.com/*?tab=download+history
 // @grant        none
 // ==/UserScript==
 
@@ -38,5 +38,5 @@
                 }
             });
         }
-    }, 1000); // Check every 1 second for the table
+    }, 2000); // Check every 3 seconds for the table
 })();
