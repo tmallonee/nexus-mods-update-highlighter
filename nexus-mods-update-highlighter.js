@@ -38,5 +38,5 @@
                 }
             });
         }
-    }, 2000); // Check every 3 seconds for the table
+    }, 3000); // Check every 3 seconds for the table
 })();
